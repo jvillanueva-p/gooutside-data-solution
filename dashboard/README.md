@@ -1,9 +1,11 @@
 # Dashboard
 
-Data Studio dashboard connected to the BigQuery views.
+Data Studio dashboard connected to the BigQuery views, with a date range control.
 
-Add here your exports:
-- `dashboard.pdf` (full report)
-- screenshots of each page (Market Concentration, Order Methods, Yearly Performance)
+- [Watch the demo video](dashboard_demo.mov)
+- [View the full dashboard (PDF)](gooutside_dashboard.pdf)
 
-Tip: make sure no personal data (email, account name) is visible in the captures.
+Pages:
+- **Market Concentration:** top 3 retailers' share by country and market classification (Competitive / Dominated)
+- **Order Methods:** revenue, profit and orders by sales channel
+- **Yearly Performance:** revenue, profit and margin over time
