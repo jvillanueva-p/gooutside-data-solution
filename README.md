@@ -4,6 +4,8 @@ End-to-end analytics case study for **GoOutside**, a fictional outdoor-gear comp
 
 **Author:** Javier Villanueva
 
+**Demo:** [Dashboard video](https://youtu.be/7l1mBp-JYhI) · [Dashboard PDF](dashboard/gooutside_dashboard.pdf) · [Presentation](presentation/gooutside_presentation.pdf)
+
 ## The problem
 
 Management needed a data solution to answer questions from three stakeholders. This repo covers the two analytical requests built in SQL and dashboards:
@@ -21,7 +23,7 @@ CSV files → BigQuery (tables) → master_table view → Google Sheets (Connect
 
 1. Four CSVs (daily sales, products, retailers, order methods) loaded to BigQuery.
 2. A single `master_table` view joins them and adds revenue, cost, profit, margin and discount fields.
-3. Analysis views and parameterized queries feed Google Sheets and Data Studio, with a date-range control.
+3. Analysis views and parameterised queries feed Google Sheets and Data Studio, with a date range control.
 
 ## Key results
 
@@ -54,8 +56,8 @@ CSV files → BigQuery (tables) → master_table view → Google Sheets (Connect
 
 ```
 sql/            BigQuery views and queries (run in order)
-sheets/         Google Sheets formulas and Connected Sheets notes
-dashboard/      Dashboard exports
+sheets/         Google Sheets screenshots, formulas and Connected Sheets notes
+dashboard/      Dashboard video link and PDF
 presentation/   Final slides
 ```
 
