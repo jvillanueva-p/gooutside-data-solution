@@ -2,7 +2,7 @@
 
 Data Studio dashboard connected to the BigQuery views, with a date range control.
 
-- [Watch the demo video](dashboard_demo.mov)
+- [Watch the demo video](https://youtu.be/7l1mBp-JYhI)
 - [View the full dashboard (PDF)](gooutside_dashboard.pdf)
 
 Pages:
